@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Page</title>
+    <link rel="stylesheet" href="blogPost.css">
+</head>
+
+<script>
+    function logoutMessage() {
+        alert("Logout was successful."); 
+        document.location = 'main.html'; 
+    }
+    </script>
+
+<body>
+    <header>
+        <div class="navigationBar">
+            <span class="textSpan">FitZone Fitness Center</span>
+            <a href="Customer_dashboard_main.php">Home</a>
+            <a href="blog_customer.html">Blog</a>
+            <a href="classes_customer.html">Join Classes</a>
+            <a href="membership_customer.html">Join Membership</a>
+            <a href="feedbackForm.php">Your Feedback</a>
+            <a href="#contactus">Contact Us</a>
+            <button class="button" onclick="logoutMessage()">Log Out</button>
+
+            
+        </div>
+    </header>
+
+    <article class="blogpost_container">
+        <div class="blogpost_text">
+            
+            <h1>Power High-Intensity Interval Training (HIIT) Workout for Busy Professionals in 30 Minutes.</h1>
+            <div class="img_container">
+            <img src="blog_img1.jpg" alt="Image">
+
+        </div>
+
+            <p class="blog-date">Posted on: September 25, 2024</p>
+            <p>Have limited time but want the best results? Busy professionals who require quick, efficient workouts are going to enjoy
+                our FitZone HIIT workout. In just 30 minutes, this high-intensity interval training session increases strength and burns
+                 calories.</p>
+
+                 <h2>Workout Structure</h2>
+
+                 <h3>01. Warm-up (5 minutes)</h3>
+                 <ul>
+                    <li>Light jogging in place</li>
+                    <li>Dynamic stretches</li>
+                 </ul>
+
+                 <h3>02. Main Circuit (20 minutes) Perform each exercise for 40 seconds, rest for 20 seconds</h3>
+                 <ul>
+                    <li>Squat jumps</li>
+                    <li>Push-ups</li>
+                 </ul>
+
+                 <h3>03. Cool-down (5 minutes)</h3>
+                 <ul>
+                    <li>Deep breathing</li>
+                 </ul>
+
+
+        </div>
+    </article>
+
+
+
+    <footer id="contactus">
+    <div class="footer_line">
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-details">
+            <h2>FitZone Fitness Center</h2>
+            <p>FitZone Fitness Center offers a wide range of dynamic workout programs,
+             a modern, motivating environment, and top-notch support to help you achieve your fitness goals. Join us today!</p>
+        </div>
+
+        <div class="footerContact">
+            <p><i class="footer_address"></i><img src="locationicon.jpg" alt="location1"> Main Street Road, Kurunegala</p>
+            <p><i class="footer_email"></i><img src="emailicon.jpg" alt="email1"> fitzone@gmail.com</p>
+            <p><i class="footer_phone"></i><img src="phoneicon.jpg" alt="phone"> +94 778 345 236</p>
+
+            <div class="socialmedia">
+                <a href="#"><img src="twittericon.png" alt="Twitter"></a>
+                <a href="#"><img src="instragramicon.jpg" alt="Instragram"></a>
+                <a href="#"><img src="facebookicon.webp" alt="Facebook"></a>
+
+            </div>
+
+            <div class="feedbackformBtn">
+                <button onclick="document.location='message.php'">Need Help ?</button>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer_Bottom">
+        <p>&copy; FitZone Fitness Center. All rights reserved.</p>
+    </div>
+    </footer>
+
+</body>
+</html>
