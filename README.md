@@ -13,7 +13,10 @@
         <h2>Screenshots</h2>
     <p>Below are some screenshots of the website:</p>
     <img src="home.png" alt="Homepage" style="width: 100%; max-width: 600px;">
-    <img src="screenshots/login.png" alt="Login Page" style="width: 100%; max-width: 600px;">
+    <img src="blog1.png" alt="Blog Page" style="width: 100%; max-width: 600px;">
+    <img src="membership1.png" alt="membership Page" style="width: 100%; max-width: 600px;">
+    <img src="membership2.png" alt="membership Page" style="width: 100%; max-width: 600px;">
+    
 
 
 
