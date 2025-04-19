@@ -20,9 +20,9 @@ Below are some screenshots of the website:
 |-------------------------------------|-------------------------------------------------------------|
 | ![Homepage](Screenshots_application/home.png) | ![Blog Page 1](Screenshots_application/blog1.png)<br>![Blog Page 2](Screenshots_application/blogpage.png) |
 
-| Membership Page 1                          |
+| Membership Page                           |
 |-------------------------------------------|
-| ![Membership Page 1](Screenshots_application/membership1.png)<br>![Membership Page 2](Screenshots_application/blogpage.png)  |
+| ![Membership Page 1](Screenshots_application/membership.png)<br>![Membership Page 2](Screenshots_application/membership1.png)  |
 
 
 <p align="center"> <strong>🌟 If you find this project useful, please consider starring the repository!</strong><br> <strong></p>
