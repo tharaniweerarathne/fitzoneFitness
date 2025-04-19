@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Page</title>
+    <link rel="stylesheet" href="classespage.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigationBar">
+            <span class="textSpan">FitZone Fitness Center</span>
+            <a href="main.html">Home</a>
+            <div class="dropdown">
+                <button class="dropdownbtn">About Us 
+                  <i class="downbtn"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="aboutus.html">About us</a>
+                  <a href="trainerpage.html">Our Team</a>
+                  <a href="blog.html">Blog</a>
+                </div>
+              </div> 
+        
+        
+            <a href="classes.html">Classes</a>
+            <a href="membership.html">Membership</a>
+            <a href="loginForm.php">Your Feedback</a>
+            <a href="#contactus">Contact Us</a>
+            <button class="button" onclick="document.location='loginForm.php'">Sign In / Sign Up</button>
+
+            
+        </div>
+    </header>
+
+    <section class="background_container">
+        <div class="background_text">
+            <h1>OUR</h1>
+            <h1>CLASSES</h1>
+        </div>
+    </section>
+
+    <section class="sectionClasses">
+        <h1>Our Classes</h1>
+        <p>For members of all fitness levels from beginners to professional athletes we offer a warm,
+             inviting environment. Whatever you are passionate about, be it cardio, strength training, yoga, or personal training.</p>
+        <div class="classes_container">
+            <div class="classCard">
+                <img src="cardio.jpg" alt="Cardio">
+                <button onclick="document.location='cardioTrainingpage.html'">Cardio training</button>
+            </div>
+
+            <div class="classCard">
+                <img src="strengthtraining.jpg" alt="Strength Training">
+                <button onclick="document.location='strengthtrainingpage.html'">Strength training</button>
+            </div>
+
+            <div class="classCard">
+                <img src="yoga.jpg" alt="Yoga">
+                <button onclick="document.location='yogaclass.html'">Yoga</button>
+            </div>
+            
+            <div class="classCard">
+                <img src="personaltrain.jpg" alt="Personal Training">
+                <button onclick="document.location='personalTraining.html'">Personal training</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contactus">
+    <div class="footer_line">
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-details">
+            <h2>FitZone Fitness Center</h2>
+            <p>FitZone Fitness Center offers a wide range of dynamic workout programs,
+             a modern, motivating environment, and top-notch support to help you achieve your fitness goals. Join us today!</p>
+        </div>
+
+        <div class="footerContact">
+            <p><i class="footer_address"></i><img src="locationicon.jpg" alt="location1"> Main Street Road, Kurunegala</p>
+            <p><i class="footer_email"></i><img src="emailicon.jpg" alt="email1"> fitzone@gmail.com</p>
+            <p><i class="footer_phone"></i><img src="phoneicon.jpg" alt="phone"> +94 778 345 236</p>
+
+            <div class="socialmedia">
+                <a href="#"><img src="twittericon.png" alt="Twitter"></a>
+                <a href="#"><img src="instragramicon.jpg" alt="Instragram"></a>
+                <a href="#"><img src="facebookicon.webp" alt="Facebook"></a>
+
+            </div>
+
+            <div class="feedbackformBtn">
+            <button onclick="document.location='message.php'">Need Help ?</button>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer_Bottom">
+        <p>&copy; FitZone Fitness Center. All rights reserved.</p>
+    </div>
+    </footer>
+
+</body>
+</html>

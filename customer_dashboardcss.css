@@ -1,0 +1,251 @@
+/* Header */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: black;
+}
+
+.navigationBar {
+    background-color: #c2b9b9;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigationBar a {
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigationBar a:hover {
+    background-color: red;
+    color:white;
+}
+
+.textSpan{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-style: italic;
+}
+
+.button {
+    background-color: black; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+/* Main Part */
+
+.main1 {
+    position: relative; 
+}
+
+.background-image{
+    background-image: url('home5.png');
+    min-height: 600px;
+    min-width: 400px;
+    background-position:left top;
+    background-repeat:no-repeat;
+    
+
+}
+
+.background-image h2{
+    color: white;
+    text-align: right;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.main1 a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-align: right; 
+}
+
+.main1 a:hover {
+    color: rgb(255, 5, 5); 
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    justify-content:space-between;
+}
+
+.footer_line{
+    background-color: red;
+    width:100%;
+    height:10px;
+
+}
+
+.footer-details {
+    width: 30%;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-details h2 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-details p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.footerContact {
+    width: 40%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerContact img {
+    margin-right: 10px; 
+    width: 30px;
+    height: 30px;
+    float:right;
+
+}
+
+.footerContact p {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.footerContact i {
+    margin-right: 10px;
+}
+
+.socialmedia {
+    margin-top: 10px;
+}
+
+.socialmedia a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    float:right;   
+}
+
+.footer_Bottom {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+}
+
+.footer_Bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.feedbackformBtn {
+    text-align: center;
+    margin-top: 20px;   
+}
+
+.feedbackformBtn button {
+    background-color: #ff0000; 
+    color: white;             
+    padding: 10px 20px;        
+    font-size: 16px;          
+    border: none;             
+    border-radius: 5px;        
+    cursor: pointer; 
+    float:right;         
+}
+
+.feedbackformBtn button:hover {
+    background-color: #10bb4e;
+}
+
+/* Table css */
+.table1 {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.table1 table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.table1 th, 
+.table1 td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+.table1 th {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table1 tr:hover {
+    background-color: #aae3f5;
+}
+
+.table1 td {
+    color: #000000;
+}
+
+.table1 h1{
+    color: rgb(112, 6, 6);
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: white;
+}

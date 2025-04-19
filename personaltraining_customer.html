@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training Page</title>
+    <link rel="stylesheet" href="classSchedulepage.css">
+</head>
+
+<script>
+    function logoutMessage() {
+        alert("Logout was successful."); 
+        document.location = 'main.html'; 
+    }
+    </script>
+
+<body>
+    <header>
+        <div class="navigationBar">
+            <span class="textSpan">FitZone Fitness Center</span>
+            <a href="Customer_dashboard_main.php">Home</a>
+            <a href="blog_customer.html">Blog</a>
+            <a href="classes_customer.html">Join Classes</a>
+            <a href="membership_customer.html">Join Membership</a>
+            <a href="feedbackForm.php">Your Feedback</a>
+            <a href="#contactus">Contact Us</a>
+            <button class="button" onclick="logoutMessage()">Log Out</button>
+
+            
+        </div>
+    </header>
+
+    <section class="Trainingclass">
+        <div class="title_Bar">
+            <h2>Personal Training</h2>
+        </div>
+
+        <div class="trainingclass_content">
+            <p>A personal trainer is a certified fitness professional who works one-on-one with clients to help them reach
+                 their fitness and health objectives. Personal training is a customized fitness program.
+            </p>
+
+            <p>Personal training is especially great for those seeking to:</p>
+            <ul>
+                <li>Achieve Specific Fitness Goals</li>
+                <li>Stay Motivated and Accountable</li>
+                <li>Optimize Time and Efficiency</li>
+            </ul>
+        </div>
+
+        <div class="schedule_container">
+            <h1>Personal Training Schedule</h1>
+        </div>
+
+        <div class="shedule_paragraph">
+        <p>Welcome to the Personal Training Program!Our personalized sessions are designed to help 
+            you achieve your individual fitness goals, whether you're looking to lose weight, build muscle,
+            or improve your overall health. Each session is customized to match your goals, fitness level, and particular
+            needs under the guidance of a certified personal trainer. Join us today and take the next step toward becoming a stronger,
+            healthier, and more confident version of yourself! Check our flexible training schedule below and schedule a session that works for you.
+        </p>
+
+        </div>
+
+        <table class="tableTraining">
+  
+        <tr>
+            <th>Classes</th>
+            <th>Trainer</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th></th> 
+        </tr>
+    
+        <tr>
+            <td rowspan="4">Strength Training</td>
+            <td rowspan="4">
+            Dinesh Kawishka<br><br><br>
+                <img src="trainer5.jpg" alt="Trainer Image" class="trainer-img">
+            </td>
+            <td>Monday - Friday</td>
+            <td>7 am - 4 pm</td>
+            <td rowspan="4">
+                <button class="registerBtn" onclick="document.location='classregister_Form.php'">Register for the class</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Monday - Friday</td>
+            <td>8 am - 5 pm</td>
+        </tr>
+        <tr>
+            <td><span class="timehighlight">Saturday</span></td>
+            <td><span class="timehighlight">8 pm - 2 pm</span></td>
+        </tr>
+        <tr>
+            <td><span class="timehighlight">Sunday</span></td>
+            <td><span class="timehighlight"> pm - 7pm</span></td>
+        </tr>
+   
+</table>
+
+    </section>
+
+
+    <footer id="contactus">
+    <div class="footer_line">
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-details">
+            <h2>FitZone Fitness Center</h2>
+            <p>FitZone Fitness Center offers a wide range of dynamic workout programs,
+             a modern, motivating environment, and top-notch support to help you achieve your fitness goals. Join us today!</p>
+        </div>
+
+        <div class="footerContact">
+            <p><i class="footer_address"></i><img src="locationicon.jpg" alt="location1"> Main Street Road, Kurunegala</p>
+            <p><i class="footer_email"></i><img src="emailicon.jpg" alt="email1"> fitzone@gmail.com</p>
+            <p><i class="footer_phone"></i><img src="phoneicon.jpg" alt="phone"> +94 778 345 236</p>
+
+            <div class="socialmedia">
+                <a href="#"><img src="twittericon.png" alt="Twitter"></a>
+                <a href="#"><img src="instragramicon.jpg" alt="Instragram"></a>
+                <a href="#"><img src="facebookicon.webp" alt="Facebook"></a>
+
+            </div>
+
+            <div class="feedbackformBtn">
+                <button onclick="document.location='message.php'">Need Help ?</button>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer_Bottom">
+        <p>&copy; FitZone Fitness Center. All rights reserved.</p>
+    </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strength Taining Page</title>
+    <link rel="stylesheet" href="classSchedulepage.css">
+</head>
+
+<script>
+    function logoutMessage() {
+        alert("Logout was successful."); 
+        document.location = 'main.html'; 
+    }
+    </script>
+
+<body>
+    <header>
+        <div class="navigationBar">
+            <span class="textSpan">FitZone Fitness Center</span>
+            <a href="Customer_dashboard_main.php">Home</a>
+            <a href="blog_customer.html">Blog</a>
+            <a href="classes_customer.html">Join Classes</a>
+            <a href="membership_customer.html">Join Membership</a>
+            <a href="feedbackForm.php">Your Feedback</a>
+            <a href="#contactus">Contact Us</a>
+            <button class="button" onclick="logoutMessage()">Log Out</button>
+
+            
+        </div>
+    </header>
+
+    <section class="Trainingclass">
+        <div class="title_Bar">
+            <h2>Strength Training</h2>
+        </div>
+
+        <div class="trainingclass_content">
+            <p>Strength training is a workout routine that emphasizes using resistance to build muscle mass and strength.
+                This training method challenges the muscles by lifting weights or applying other types of resistance, 
+                which promotes increases muscular endurance and growth.
+            </p>
+
+            <p>Strength training is especially great for those seeking to:</p>
+            <ul>
+                <li>Increase Muscle Mass.</li>
+                <li>Increase Stability and Balance.</li>
+                <li>Enhance Functional Fitness.</li>
+            </ul>
+        </div>
+
+        <div class="schedule_container">
+            <h1>Strength Training Schedule</h1>
+        </div>
+
+        <div class="shedule_paragraph">
+        <p>Welcome to the Strength Training Program! Our carefully organized classes aim to 
+            improve your general fitness, muscular strength, and endurance.Everyone from beginners to
+             experienced athletes can participate and gain from our sessions, which are led by certified trainer and
+              fit all fitness levels. Join us for a variety of workouts that will follow you and improve your physical 
+              capabilities, as well as your wellbeing and confidence. Choose a suitable class from the schedule below to
+               reach your strength training goals!</p>
+
+        </div>
+
+        <table class="tableTraining">
+  
+        <tr>
+            <th>Classes</th>
+            <th>Trainer</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th></th> 
+        </tr>
+    
+        <tr>
+            <td rowspan="4">Strength Training</td>
+            <td rowspan="4">
+            David Johnson<br><br><br>
+                <img src="trainer2.jpg" alt="Trainer Image" class="trainer-img">
+            </td>
+            <td>Monday - Friday</td>
+            <td>7 am - 9 am</td>
+            <td rowspan="4">
+                <button class="registerBtn" onclick="document.location='classregister_Form.php'">Register for the class</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Monday - Friday</td>
+            <td>8 am - 11 pm</td>
+        </tr>
+        <tr>
+            <td><span class="timehighlight">Saturday</span></td>
+            <td><span class="timehighlight">12 pm - 2 pm</span></td>
+        </tr>
+        <tr>
+            <td><span class="timehighlight">Sunday</span></td>
+            <td><span class="timehighlight">12 pm - 7pm</span></td>
+        </tr>
+   
+</table>
+
+    </section>
+
+
+    <footer id="contactus">
+    <div class="footer_line">
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-details">
+            <h2>FitZone Fitness Center</h2>
+            <p>FitZone Fitness Center offers a wide range of dynamic workout programs,
+             a modern, motivating environment, and top-notch support to help you achieve your fitness goals. Join us today!</p>
+        </div>
+
+        <div class="footerContact">
+            <p><i class="footer_address"></i><img src="locationicon.jpg" alt="location1"> Main Street Road, Kurunegala</p>
+            <p><i class="footer_email"></i><img src="emailicon.jpg" alt="email1"> fitzone@gmail.com</p>
+            <p><i class="footer_phone"></i><img src="phoneicon.jpg" alt="phone"> +94 778 345 236</p>
+
+            <div class="socialmedia">
+                <a href="#"><img src="twittericon.png" alt="Twitter"></a>
+                <a href="#"><img src="instragramicon.jpg" alt="Instragram"></a>
+                <a href="#"><img src="facebookicon.webp" alt="Facebook"></a>
+
+            </div>
+
+            <div class="feedbackformBtn">
+                <button onclick="document.location='message.php'">Need Help ?</button>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer_Bottom">
+        <p>&copy; FitZone Fitness Center. All rights reserved.</p>
+    </div>
+    </footer>
+
+</body>
+</html>

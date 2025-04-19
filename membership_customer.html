@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Page</title>
+    <link rel="stylesheet" href="membership.css">
+</head>
+
+<script>
+    function logoutMessage() {
+        alert("Logout was successful."); 
+        document.location = 'main.html'; 
+    }
+    </script>
+
+<body>
+    <header>
+        <div class="navigationBar">
+            <span class="textSpan">FitZone Fitness Center</span>
+            <a href="Customer_dashboard_main.php">Home</a>
+            <a href="blog_customer.html">Blog</a>
+            <a href="classes_customer.html">Join Classes</a>
+            <a href="membership_customer.html">Join Membership</a>
+            <a href="feedbackForm.php">Your Feedback</a>
+            <a href="#contactus">Contact Us</a>
+            <button class="button" onclick="logoutMessage()">Log Out</button>
+
+            
+        </div>
+    </header>
+
+
+    <section class="memberships">
+        
+
+        <h2>MEMBERSHIP PLANS.</h2>
+        <div class="pricing-cards">
+            <div class="banner_card">
+                <h3>Platinum Membership</h3>
+                <p>Gents-Annual: Rs. 25000</p>
+                <p>Ladies-Annual: Rs. 25000</p>
+                <p class="duration">Time Duration: 4:00am to 12:00 Midnight</p>
+                <button class="registerBtn" onclick="document.location='membership_registration.php'">Join Now</button>
+            </div>
+
+            <div class="banner_card">
+                <h3>Gold Membership</h3>
+                <p>Gents-Annual: Rs. 20000</p>
+                <p>Ladies-Annual: Rs. 20000</p>
+                <p class="duration">Time Duration: 4:00am to 4:30 pm</p>
+                <button class="registerBtn" onclick="document.location='membership_registration.php'">Join Now</button>
+            </div>
+
+            <div class="banner_card">
+                <h3>Silver Membership</h3>
+                <p>Gents-Annual: Rs. 15000</p>
+                <p>Ladies-Annual: Rs. 15000</p>
+                <p class="duration">Time Duration: 4:00am to 2:00 pm</p>
+                <button class="registerBtn" onclick="document.location='membership_registration.php'">Join Now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contactus">
+    <div class="footer_line">
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-details">
+            <h2>FitZone Fitness Center</h2>
+            <p>FitZone Fitness Center offers a wide range of dynamic workout programs,
+             a modern, motivating environment, and top-notch support to help you achieve your fitness goals. Join us today!</p>
+        </div>
+
+        <div class="footerContact">
+            <p><i class="footer_address"></i><img src="locationicon.jpg" alt="location1"> Main Street Road, Kurunegala</p>
+            <p><i class="footer_email"></i><img src="emailicon.jpg" alt="email1"> fitzone@gmail.com</p>
+            <p><i class="footer_phone"></i><img src="phoneicon.jpg" alt="phone"> +94 778 345 236</p>
+
+            <div class="socialmedia">
+                <a href="#"><img src="twittericon.png" alt="Twitter"></a>
+                <a href="#"><img src="instragramicon.jpg" alt="Instragram"></a>
+                <a href="#"><img src="facebookicon.webp" alt="Facebook"></a>
+
+            </div>
+
+            <div class="feedbackformBtn">
+                <button onclick="document.location='message.php'">Need Help ?</button>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer_Bottom">
+        <p>&copy; FitZone Fitness Center. All rights reserved.</p>
+    </div>
+    </footer>
+    
+</body>
+</html>

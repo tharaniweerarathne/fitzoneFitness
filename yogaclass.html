@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Class Page</title>
+    <link rel="stylesheet" href="classSchedulepage.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigationBar">
+            <span class="textSpan">FitZone Fitness Center</span>
+            <a href="main.html">Home</a>
+            <div class="dropdown">
+                <button class="dropdownbtn">About Us 
+                  <i class="downbtn"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="aboutus.html">About us</a>
+                  <a href="trainerpage.html">Our Team</a>
+                  <a href="blog.html">Blog</a>
+                </div>
+              </div> 
+        
+        
+            <a href="classes.html">Classes</a>
+            <a href="membership.html">Membership</a>
+            <a href="loginForm.php">Your Feedback</a>
+            <a href="#contactus">Contact Us</a>
+            <button class="button" onclick="document.location='loginForm.php'">Sign In / Sign Up</button>
+
+            
+        </div>
+    </header>
+
+    <section class="Trainingclass">
+        <div class="title_Bar">
+            <h2>Yoga Training</h2>
+        </div>
+
+        <div class="trainingclass_content">
+            <p>Yoga is one of the most well-liked fitness programs available, and its popularity has grown significantly 
+                over the past 20 years. Yoga enhances your strength, flexibility, and breathing through a sequence of gradually 
+                challenging stretches, rather than being a discipline that impacts your cardiovascular system. It aims to improve
+                 your mental health and simplicity of thought, as well as your general fitness and health.
+            </p>
+
+            <p>Yoga training is especially great for those seeking to:</p>
+            <ul>
+                <li>Reduce Stress and Anxiety</li>
+                <li>Enhance Your Lung and Breathing Capacity</li>
+                <li>Increase Your Mobility and Flexibility</li>
+            </ul>
+        </div>
+
+        <div class="schedule_container">
+            <h1>Yoga Training Schedule</h1>
+        </div>
+
+        <div class="shedule_paragraph">
+        <p>Welcome to the Yoga Training Program! Our sessions aim to lead you on a comprehensive
+            path to mental and physical health. Our program is customized for your specific needs, 
+            whether you want to improve your flexibility, strength, stress levels, or general balance.
+            Each session is customized according to your fitness level and personal goals under the guidance
+            of skilled yoga instructor. Join us today to cultivate mindfulness, enhance your physical capabilities, 
+            and foster inner peace. Check our flexible class schedule below and find the perfect session to start your yoga journey!
+        </p>
+
+        </div>
+
+        <table class="tableTraining">
+  
+        <tr>
+            <th>Classes</th>
+            <th>Trainer</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th></th> 
+        </tr>
+    
+        <tr>
+            <td rowspan="5">Strength Training</td>
+            <td rowspan="5">
+            <a class="trainername" href="trainerpage.html">Kiara Smith</a><br><br><br>
+                <img src="trainer3.jpg" alt="Trainer Image" class="trainer-img">
+            </td>
+            <td>Monday - Friday</td>
+            <td>6 am - 8 am</td>
+            <td rowspan="5">
+                <button class="registerBtn" onclick="document.location='loginForm.php'">Register for the class</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Monday - Friday</td>
+            <td>8 am - 10 am</td>
+        </tr>
+
+        <tr>
+            <td>Monday - Friday</td>
+            <td>6 am - 8 am</td>
+        </tr>
+
+        <tr>
+            <td><span class="timehighlight">Saturday</span></td>
+            <td><span class="timehighlight">6 pm - 8 pm</span></td>
+        </tr>
+        <tr>
+            <td><span class="timehighlight">Sunday</span></td>
+            <td><span class="timehighlight">8 pm - 10 pm</span></td>
+        </tr>
+   
+</table>
+
+    </section>
+
+
+    <footer id="contactus">
+    <div class="footer_line">
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-details">
+            <h2>FitZone Fitness Center</h2>
+            <p>FitZone Fitness Center offers a wide range of dynamic workout programs,
+             a modern, motivating environment, and top-notch support to help you achieve your fitness goals. Join us today!</p>
+        </div>
+
+        <div class="footerContact">
+            <p><i class="footer_address"></i><img src="locationicon.jpg" alt="location1"> Main Street Road, Kurunegala</p>
+            <p><i class="footer_email"></i><img src="emailicon.jpg" alt="email1"> fitzone@gmail.com</p>
+            <p><i class="footer_phone"></i><img src="phoneicon.jpg" alt="phone"> +94 778 345 236</p>
+
+            <div class="socialmedia">
+                <a href="#"><img src="twittericon.png" alt="Twitter"></a>
+                <a href="#"><img src="instragramicon.jpg" alt="Instragram"></a>
+                <a href="#"><img src="facebookicon.webp" alt="Facebook"></a>
+
+            </div>
+
+            <div class="feedbackformBtn">
+                <button onclick="document.location='message.php'">Need Help ?</button>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer_Bottom">
+        <p>&copy; FitZone Fitness Center. All rights reserved.</p>
+    </div>
+    </footer>
+
+</body>
+</html>
