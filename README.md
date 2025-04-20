@@ -5,7 +5,7 @@
   <h1>💻 FitZone Fitness</h1>
   <p><strong>FitZone Fitness</strong> is a web platform designed for a fitness center that allows customers to manage their memberships, join classes, view schedules, provide feedback, and interact with staff through messages. It includes login and registration functionalities, class joining features, and a blog section with fitness tips, workout routines, and healthy recipes. 💪</p>
   <br>
-  <p>✨ <span style="background-color: #fff3cd; padding: 5px 6px; border-radius: 4px; font-weight: bold;">This is my very first website project!</span> I built it using core web technologies — <strong>PHP</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and a bit of <strong>JavaScript</strong> — without any frameworks. A big learning experience and a project I'm really proud of!</p>
+  <p>✨ <span style="background-color: #fff3cd; padding: 5px 6px; border-radius: 4px; font-weight: bold;">This is my very first website project!</span> I built it using core web technologies <strong>PHP</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and a bit of <strong>JavaScript</strong> without any frameworks. A big learning experience and a project I'm really proud of!</p>
 </section>
 
 
