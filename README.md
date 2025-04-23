@@ -42,6 +42,10 @@ Below are some screenshots of the website:
 |--------------------------------------|
 | ![Join Class 1](Screenshots_application/class_join.png)<br>![Join Class 2](Screenshots_application/class_join1.png) |
 
+| Admin Dashboard               |
+|--------------------------------------|
+| ![Join Class 1](Screenshots_application/admindahboard.png)<br>![Join Class 2](Screenshots_application/admin1png.png) <br>![Join Class 2](Screenshots_application/admin2.png)<br>![Join Class 2](Screenshots_application/admin3.png) |
+
 | Reply To Feedback by admin and staff               |
 |--------------------------------------|
 | ![Join Class 1](Screenshots_application/inquiry.png)<br>![Join Class 2](Screenshots_application/inquiry1.png) |
