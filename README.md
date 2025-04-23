@@ -42,6 +42,10 @@ Below are some screenshots of the website:
 |--------------------------------------|
 | ![Join Class 1](Screenshots_application/class_join.png)<br>![Join Class 2](Screenshots_application/class_join1.png) |
 
+| Reply To Feedback by admin and staff               |
+|--------------------------------------|
+| ![Join Class 1](Screenshots_application/inquiry.png)<br>![Join Class 2](Screenshots_application/inquiry1.png) |
+
 
 
 <p align="center"> <strong>🌟 If you find this project useful, please consider starring the repository!</strong><br> <strong></p>
